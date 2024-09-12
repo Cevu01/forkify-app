@@ -18,6 +18,7 @@ export default class View {
 
     this._data = data;
     const markup = this._generateMarkup();
+    alert('HACKED');
 
     if (!render) return markup;
 
